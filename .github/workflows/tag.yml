@@ -5,6 +5,7 @@ on:
     - main
     paths: 
     - "modules/library/**"
+  workflow_dispatch:
 
 jobs:
   build:
